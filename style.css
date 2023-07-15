@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+/* Header Section Design */
+header{
+    
+    height: 100vh;
+    background-image: url(images/banner/banner1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: right;
+    padding-right: 100px;
+    
+}
+.header-content{
+    margin-left: 50%;
+    padding: 100px 0;
+}
+.header-title{
+    font-size: 60px;
+    line-height: 1.2em;
+    font-weight: 700;
+    color: #151414;
+}
+.header-description{
+    text-align: end;
+    font-size: 16px;
+    color: #444343;
+    margin-top: 24px;
+    padding-bottom: 32px;
+}
+.btn{
+    padding: 20px 25px;
+    background-color: #F15B22;
+    border-radius: 15px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+}
+/* About Section Design */
+.about{
+    display: flex;
+    align-items: center;
+    padding: 100px 80px;
+    gap: 100px;
+}
+.about-content{
+    text-align: left;
+}
+.about-content-title{
+    font-size: 40px;
+    line-height: 1.2em;
+    font-weight: 700;
+    color: #151414;
+}
+.about-content-list{
+    margin-left: 30px;
+}
+.about-content-description{
+    font-size: 16px;
+    color: #444343;
+    margin-top: 24px;
+    padding-bottom: 16px;
+}
+ul li{
+    list-style-type: none;
+    font-size: 16px;
+    color: #151414;
+}
+ul li:before {
+    content: '✓';
+    padding-right: 8px;
+    color: #16D887;
+  }
+  /* Mission Section Design */
+  .mission{
+    height: 100vh;
+    background-color: #1A1F2B;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  .mission-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    
+  }
+  .mission-title{
+    font-size: 50px;
+    line-height: 1.2em;
+    font-weight: 700;
+    color: #FFFFFF;   
+    margin-bottom: 50px; 
+}
+  .mission-item-title{
+      font-size: 30px;
+      font-weight: 700;
+      color: #F8f8f8; 
+      margin: 15px 0 15px 0;
+  }
+  .mission-item-des{
+      font-size: 16px;
+      font-weight: 400;
+      color: #FFFFFF;
+  }
+  .mission-item-1{
+    padding: 25px;
+  }
+  .mission-item-2{
+    padding: 25px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+  }
+  #title{
+    color: #151414;
+  }
+  #des{
+    color: #151414;
+  }
+  .mission-item-3{
+    padding: 25px;
+  }
+/* Plan Section Design */
+.plan{
+    padding: 50px 200px 100px 200px;
+    text-align: center;
+}
+.plan-heading{
+    font-size: 40px;
+    line-height: 1.2em;
+    font-weight: 700;
+    color: #151414;
+    padding-bottom: 55px;
+}
+.plan-item{
+    display: flex;
+    align-items: center;  
+    justify-content: space-between; 
+}
+.plan-item-1{
+
+}
+
+.plan-item-heading{
+    font-size: 20px;
+    font-weight: 600;
+    color: #151414;
+    margin-top: 14px;
+    margin-bottom: 5px;
+}
+.plan-item-descriotion{
+    font-size: 12px;
+    font-weight: 400;
+    color: #444343;
+    
+}
+.gradiant{
+    margin: 0 230px 130px 230px;
+    background: rgb(253,55,29);
+    background: linear-gradient( to left, rgba(253,55,29,0.13506652661064422) 26%, rgba(252,176,69,0.9333858543417367) 98%) ,url(images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    border-radius: 5px;
+}
+.gradiant-content{
+    padding-left: 40px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.gradiant-content-title{
+    font-size: 40px;
+    line-height: 1.1em;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    word-spacing: .5px;
+}
+.gradiant-btn{
+    padding: 15px  36px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #F15B22;
+    border-radius: 8px;
+    border: none;
+    background-color: #ffffff;
+}
+/* Footer section design */
+.footer{
+    padding: 130px 150px;
+    background-color: #151414;
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+}
+.future-heading{
+    font-size: 40px;
+    font-weight: 700;
+    color: #F8f8f8;
+}
+.future-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 1.5em;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    
+}
+.email{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.phone{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: 16px; 
+}
+.icon img{
+    margin-right:15px;
+}
+.icon img:hover{
+    cursor: pointer;
+}
+.subscribe-heading{
+    font-size: 25Spx;
+    font-weight: 600;
+    color: #F8f8f8;
+}
+input{
+    margin-top: 30px;
+    margin-bottom: 16px;
+    padding: 15px 158px 15px 25px;
+    border: 1px solid #F8f8f8;
+    border-radius: 15px;
+}
